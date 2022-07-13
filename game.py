@@ -2,9 +2,9 @@
 
 print("Rock, Paper, Scissors, Shoot!")
 
-print ("----------")
+print ("-" * 20)
 print ("Welcome to the rock-paper-scissors game!")
-print ("----------")
+print ("-"*20)
 # player's choice
 player_choice = input("Please choose 'rock' paper' or 'scissors':")
 # standardize the input
@@ -28,42 +28,42 @@ computer_choice = (random.choice(arr))
 # standardize the input
 computer_choice = computer_choice.lower()
 print ("The computer chose:", (computer_choice))
-print ("----------")
+print ("-"*20)
 
 # determine the winner and display the results.
 # rock options
 if player_choice == "rock" and computer_choice == "rock":
     print ("Oh it's a tie!")
-    print ("----------")
+    print ("-"*20)
 elif player_choice == "rock" and computer_choice == "paper":
     print ("Oh, the computer won. Maybe next time!")
-    print ("----------")
+    print ("-"*20)
 elif player_choice == "rock" and computer_choice == "scissors":
     print ("Congratulations - you win!")
-    print ("----------")
+    print ("-"*20)
 # paper
 elif player_choice == "paper" and computer_choice == "paper":
     print ("Oh it's a tie!")
-    print ("----------")
+    print ("-"*20)
 elif player_choice == "paper" and computer_choice == "rock":
     print ("Congratuations - you win!")
-    print("----------")
+    print("-"*20)
 elif player_choice == "paper" and computer_choice == "scissors":
     print ("Oh, the computer won. Maybe next time!")
-    print ("----------")
+    print ("-"*20)
 # scissors options
 elif player_choice == "scissors" and computer_choice == "scissors":
     print ("Oh it's a tie!")
-    print ("----------")
+    print ("-"*20)
 elif player_choice == "scissors" and computer_choice == "rock":
     print ("Oh, the computer won. Maybe next time!")
-    print("----------")
+    print("-"*20)
 elif player_choice == "scissors" and computer_choice == "paper":
     print ("Congratulations - you win!")
-    print ("----------")
+    print ("-"*20)
 else:
     print ("Sorry, please try again.")
-    print ("----------")
+    print ("-"*20)
 
 
 # finish the game
