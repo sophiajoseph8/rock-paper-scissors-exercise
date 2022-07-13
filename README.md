@@ -31,14 +31,30 @@ The application should prompt the user to input (i.e., "rock", "paper", or "scis
 ## Validating User Inputs
 The application should compare the user's selections agains the list of valid options (i.e., "rock", "paper", "scissors") to determine whether the user has selected a valid option to play the game.
 
-# Usage
-## Game Play
-Play rock paper scissors with the computer:
+It should be able to handle various capitalizations and iterations of the valide options (e.g., "ROCK", "rock" or "Rock").
 
-```
-python game.py
-```
- 
+If the selection is invalide, the program should display a friendly message to the user and prevent further program execution. The program should not try to further process an invalid input as it may lead to runtime errors.
+
+## Simulating Computer Selection
+The application should select one of the options for the game (i.e., "rock", "paper", "scissors") at random, and assign it as the computer's choice for the game.
+
+## Determining the Winner
+The application should compare the user's selection to the computer's selection, and determine which is the winner. The following logic should govern that determination:
+1. Rock beats Scissors
+2. Paper beats Rock
+3. Scissors beats Paper
+4. Rock vs Rock, Paper vs Paper, and Scissors vs Scissors each results in a "tie".
+
+## Displaying the Results
+After determing the winner, the application should display the results to the user. Outputs (from start to finish) should include at least the following:
+
++ A friend welcome message including the player's name (by default, use "Player One").
++The user's selected option
++ The computer's selected option
++ Whether the user or the computer was the winner
++ A friendly farewell message
+
+
  Desired output may look like this:
 
  ```
@@ -55,3 +71,10 @@ Thanks for playing. Please play again!
 
 ```
 
+# Usage
+## Game Play
+Play rock paper scissors with the computer:
+
+```
+python game.py
+```
