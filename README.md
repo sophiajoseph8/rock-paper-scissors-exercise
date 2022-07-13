@@ -25,6 +25,12 @@ pip install -r requirements.txt
 # Requirements
 Once you have completed the setup described above, you can now start coding as noted below. To develop good version control habis, aim to make a separate commit after completeting each section.
 
+## Processing User Inputs
+The application should prompt the user to input (i.e., "rock", "paper", or "scissors") via command-line interface (CLI). It should store the user's selection in a variable for later reference (i.e., "player_choice")
+
+## Validating User Inputs
+The application should compare the user's selections agains the list of valid options (i.e., "rock", "paper", "scissors") to determine whether the user has selected a valid option to play the game.
+
 # Usage
 ## Game Play
 Play rock paper scissors with the computer:

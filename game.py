@@ -9,6 +9,11 @@ player_choice = input("Please choose 'rock' paper' or 'scissors':")
 print ("You chose:", (player_choice))
 
 # validate user inputs
+valid_options= {"rock_one": "Rock", "rock_two": "rock", "rock_three": "ROCK","paper_one": "Paper", "paper_two": "paper", "paper_three": "PAPER", "scissors_one":"Scissors", "scissors_two": "scissors", "scissors_three": "SCISSORS"}
+
+
+
+
 
 # computer's choice
 
