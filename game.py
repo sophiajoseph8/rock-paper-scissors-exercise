@@ -10,6 +10,7 @@ player_choice = input("Please choose 'rock' paper' or 'scissors':")
 player_choice = player_choice.lower()
 print ("You chose:", (player_choice))
 
+# valid options for the game
 valid_options = ["rock", "paper", "scissors"]
 
 # if not in the list, terminate the game
@@ -27,7 +28,7 @@ computer_choice = (random.choice(arr))
 computer_choice = computer_choice.lower()
 print ("The computer chose:", (computer_choice))
 
-# determine the winner
+# determine the winner and display the results.
 if player_choice == "rock" and computer_choice == "rock":
     print ("Oh it's a tie!")
 elif player_choice == "rock" and computer_choice == "paper":
@@ -49,15 +50,10 @@ elif player_choice == "scissors" and computer_choice == "paper":
 else:
     print ("Sorry, please try again.")
 
-# validate user inputs
-breakpoint()
 
+# finish the game
+print ("Thanks for playing. Please play again!")
 
-
-
-# display the results
-
-print ("Thanks for playing! Please play again.")
 
 
 
