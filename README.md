@@ -1,6 +1,6 @@
 # Rock-Paper-Scissors-Exercise
 
-This is a python application that allows a human to play rock paper scissors with a computer. Good luck!
+This is a python application that allows you to play rock paper scissors with a computer. Good luck!
 
 # Setup
 Optionally fork or clone this [remote repository](https://github.com/sophiajoseph8/rock-paper-scissors-exercise) to create a copy under your own control. Then "clone" or download the remote repository(or your forked copy) onto your local computer, for example your Desktop. Then navigate to wherever you downloaded the repo using the Terminal:
@@ -71,8 +71,7 @@ Thanks for playing. Please play again!
 
 ```
 
-# Usage
-## Game Play
+# Game Play
 Play rock paper scissors with the computer:
 
 ```
