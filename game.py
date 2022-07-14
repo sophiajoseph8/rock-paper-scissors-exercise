@@ -6,8 +6,10 @@ print("Rock, Paper, Scissors, Shoot!")
 print ("-" * 20)
 print ("Welcome 'Player One' to the rock-paper-scissors game!")
 print ("-"*20)
+
 # player's choice
 player_choice = input("Please choose 'rock' paper' or 'scissors':")
+
 # standardize the input
 player_choice = player_choice.lower()
 print ("You chose:", (player_choice))
@@ -24,8 +26,7 @@ if player_choice not in valid_options:
 
 import random
 random.random()
-arr = ["rock", "paper", "scissors"]
-computer_choice = (random.choice(arr))
+computer_choice = (random.choice(valid_options))
 # standardize the input
 computer_choice = computer_choice.lower()
 print ("The computer chose:", (computer_choice))
