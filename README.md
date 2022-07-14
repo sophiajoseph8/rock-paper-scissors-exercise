@@ -31,9 +31,9 @@ The application should prompt the user to input (i.e., "rock", "paper", or "scis
 ## Validating User Inputs
 The application should compare the user's selections agains the list of valid options (i.e., "rock", "paper", "scissors") to determine whether the user has selected a valid option to play the game.
 
-It should be able to handle various capitalizations and iterations of the valide options (e.g., "ROCK", "rock" or "Rock").
+It should be able to handle various capitalizations and iterations of the validate options (e.g., "ROCK", "rock" or "Rock"). One way to do this would be standardize the input (e.g., put the input in lowercase).
 
-If the selection is invalide, the program should display a friendly message to the user and prevent further program execution. The program should not try to further process an invalid input as it may lead to runtime errors.
+If the selection is invalid, the program should display a friendly message to the user and prevent further program execution. The program should not try to further process an invalid input as it may lead to runtime errors.
 
 ## Simulating Computer Selection
 The application should select one of the options for the game (i.e., "rock", "paper", "scissors") at random, and assign it as the computer's choice for the game.
@@ -48,7 +48,7 @@ The application should compare the user's selection to the computer's selection,
 ## Displaying the Results
 After determing the winner, the application should display the results to the user. Outputs (from start to finish) should include at least the following:
 
-+ A friend welcome message including the player's name (by default, use "Player One").
++ A friendly welcome message including the player's name (by default, use "Player One").
 +The user's selected option
 + The computer's selected option
 + Whether the user or the computer was the winner

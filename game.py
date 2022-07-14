@@ -1,9 +1,10 @@
 # this is the "game.py" file...
 
+
 print("Rock, Paper, Scissors, Shoot!")
 
 print ("-" * 20)
-print ("Welcome to the rock-paper-scissors game!")
+print ("Welcome 'Player One' to the rock-paper-scissors game!")
 print ("-"*20)
 # player's choice
 player_choice = input("Please choose 'rock' paper' or 'scissors':")
